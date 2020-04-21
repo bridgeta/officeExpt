@@ -1,0 +1,14 @@
+Package: mypackage
+Title: What The Package Does (one line, title case required)
+Version: 0.1
+Authors@R: person("Bridget", "Armstrong", email = "armstrong.bridget@gmail.com",
+                  role = c("aut", "cre"))
+Description: A BUnch of officer stuff
+Depends: R (>= 3.1.0)
+License: MIT
+LazyData: true
+Imports: officer
+         roxygen2
+         devtools
+         tidyverse
+         testthat
